@@ -13,12 +13,21 @@ j - move one down
 k - move one up
 l - move one right
 w - move to start of next word
+W - same but ignores punctuation
 e - move to end of next word
+E - same but ignores punctuation
 b - move to beginning of previous word
+ge - move to end of previous word
 $ - move to end of line
-^ - move to beginning of line
+g_ - same but ignores blank characters
+0 - move to beginning of line
+^ - same but ignores blank characters
 gg - move to top of file
 G - move to bottom of file
+H - move to top of screen
+M - move to middle of screen
+L - move to bottom of screen
+% - move to matching character (like "(" to ")")
 
 # Text editing (Normal mode)
 
@@ -31,6 +40,10 @@ p - paste most recently deleted text
 u - undo
 o - create new line beneath cursor and enter insert mode
 O - same but create new line above instead
+a - insert character after cursor
+A - insert character at end of line
+r - replace one character
+R - replace characters until esc is pushed
 
 # ":" commands (Normal mode)
 
