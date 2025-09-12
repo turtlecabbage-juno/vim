@@ -8,10 +8,10 @@ esc - normal mode
 
 # Navigation (Normal mode)
 
-h - move one left
-j - move one down
-k - move one up
-l - move one right
+*h - move one left*
+*j - move one down*
+*k - move one up*
+*l - move one right*
 w - move to start of next word
 W - same but ignores punctuation
 e - move to end of next word
@@ -31,13 +31,13 @@ L - move to bottom of screen
 
 # Text editing (Normal mode)
 
-x - delete character under cursor
-dw - delete word
-dd - delete entire line
-d$ - delete from cursor to end of line
-d^ - delete from cursor to start of line
+*x - delete character under cursor*
+*dw - delete word*
+*dd - delete entire line*
+*d$ - delete from cursor to end of line*
+*d^ - delete from cursor to start of line*
 p - paste most recently deleted text
-u - undo
+*u - undo*
 o - create new line beneath cursor and enter insert mode
 O - same but create new line above instead
 a - insert character after cursor
@@ -47,9 +47,9 @@ R - replace characters until esc is pushed
 
 # ":" commands (Normal mode)
 
-:w - save changes
-:wq - save changes and exit vim
-:q - exit vim (No changes made)
+*:w - save changes*
+*:wq - save changes and exit vim*
+*:q - exit vim (No changes made)*
 :q! - exit vim and discard changes
 :40 moves to line 40, etc etc
 :-40 moves 40 lines up
