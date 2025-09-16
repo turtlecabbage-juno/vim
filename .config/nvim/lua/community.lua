@@ -13,10 +13,10 @@ return {
   { import = "astrocommunity.git.nvim-tinygit" },
   { import = "astrocommunity.icon.mini-icons" },
   { import = "astrocommunity.markdown-and-latex.render-markdown-nvim" },
-  { import = "astrocommunity.media.neocord-nvim" },
+  -- { import = "astrocommunity.media.neocord-nvim" },
   { import = "astrocommunity.motion.mini-basics" },
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.ruby" },
-  { import = "astrocommunity.pack.elixir-phoenix" },
-  { import = "astrocommunity.pack.nim" },
+  -- { import = "astrocommunity.pack.elixir-phoenix" },
+  -- { import = "astrocommunity.pack.nim" },
 }
