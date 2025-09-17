@@ -1,12 +1,12 @@
-## Vim cheat sheet
+# Vim cheat sheet
 
-# Modes
+## Modes
 
 i - insert mode
 v - visual mode
 esc - normal mode
 
-# Navigation (Normal mode)
+## Navigation (Normal mode)
 
 *h - move one left*
 *j - move one down*
@@ -29,7 +29,7 @@ M - move to middle of screen
 L - move to bottom of screen
 % - move to matching character (like "(" to ")")
 
-# Text editing (Normal mode)
+## Text editing (Normal mode)
 
 *x - delete character under cursor*
 *dw - delete word*
@@ -45,17 +45,18 @@ A - insert character at end of line
 r - replace one character
 R - replace characters until esc is pushed
 
-# ":" commands (Normal mode)
+## ":" commands (Normal mode)
 
 *:w - save changes*
 *:wq - save changes and exit vim*
 *:q - exit vim (No changes made)*
 :q! - exit vim and discard changes
-:40 moves to line 40, etc etc
-:-40 moves 40 lines up
-:+40 moves 40 lines down
-:/The moves to the next instance of "The"
+:40 - moves to line 40, etc etc
+:-40 - moves 40 lines up
+:+40 - moves 40 lines down
+:/The - moves to the next instance of "The"
+:%s/20/40 - replaces all instances of "20" with "40"
 
-# Notes
+## Notes
 
 - You can type a number to repeat an action (ex. 4dd would delete current line and the 3 under. Also makes p paste all 4 lines. 50j would move 50 lines down.)
