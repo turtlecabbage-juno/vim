@@ -55,7 +55,7 @@ R - replace characters until esc is pushed
 :-40 - moves 40 lines up
 :+40 - moves 40 lines down
 :/The - moves to the next instance of "The"
-:%s/20/40 - replaces all instances of "20" with "40"
+:%s/20/40/g - replaces all instances of "20" with "40" (the /g at the end replaces all instances in a line, otherwise it does only the first instance)
 
 ## Notes
 
