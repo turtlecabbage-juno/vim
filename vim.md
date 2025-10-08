@@ -33,10 +33,12 @@ L - move to bottom of screen
 
 *x - delete character under cursor*
 *dw - delete word*
+*cw - delete word and enter insert mode*
 *dd - delete entire line*
-*d$ - delete from cursor to end of line*
+*D - delete from cursor to end of line*
+*d$ - same thing*
 *d^ - delete from cursor to start of line*
-p - paste most recently deleted text
+*p - paste most recently deleted text*
 *u - undo*
 o - create new line beneath cursor and enter insert mode
 O - same but create new line above instead
